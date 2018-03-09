@@ -1,5 +1,9 @@
 ## Unreleased
 
+FEATURES:
+
+* **New Data Source**: `tencentcloud_network_interface` ([#49](https://github.com/tencentyun/terraform-provider-tencentcloud/issues/49))
+
 BUG FIXES:
 
 * resource/tencentcloud_cbs_storage: make name to be required ([#25](https://github.com/tencentyun/terraform-provider-tencentcloud/issues/25))

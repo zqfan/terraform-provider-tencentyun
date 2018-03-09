@@ -47,6 +47,7 @@ func Provider() *schema.Provider {
 			"tencentcloud_nats":                        dataSourceTencentCloudNats(),
 			"tencentcloud_container_clusters":          dataSourceTencentCloudContainerClusters(),
 			"tencentcloud_container_cluster_instances": dataSourceTencentCloudContainerClusterInstances(),
+			"tencentcloud_network_interface":           dataSourceTencentCloudNetworkInterface(),
 		},
 
 		ResourcesMap: map[string]*schema.Resource{
